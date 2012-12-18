@@ -20,7 +20,7 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -139,7 +139,7 @@
 <text x="-35.56" y="-10.16" size="1.778" layer="27" font="vector" ratio="10">M.HORD</text>
 <text x="4.318" y="25.019" size="1.4224" layer="21" font="vector" ratio="15" rot="R90">AVR
 ICSP</text>
-<text x="11.049" y="47.498" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">v02</text>
+<text x="11.049" y="47.498" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">v10</text>
 <wire x1="0" y1="33.274" x2="17.78" y2="33.274" width="0.2032" layer="20"/>
 <wire x1="17.78" y1="32.766" x2="0" y2="32.766" width="0.2032" layer="20"/>
 <wire x1="17.78" y1="50.8" x2="17.78" y2="33.274" width="0.2032" layer="20"/>
@@ -533,12 +533,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="2X3_POGO">
-<pad name="P$1" x="0" y="0" drill="1.2" shape="octagon"/>
-<pad name="P$3" x="2.54" y="0" drill="1.2" shape="octagon"/>
-<pad name="P$5" x="5.08" y="0" drill="1.2" shape="octagon"/>
-<pad name="P$6" x="5.08" y="2.54" drill="1.2" shape="octagon"/>
-<pad name="P$4" x="2.54" y="2.54" drill="1.2" shape="octagon"/>
-<pad name="P$2" x="0" y="2.54" drill="1.2" shape="octagon"/>
+<pad name="P$1" x="0" y="0" drill="1.2" diameter="1.8288" shape="octagon"/>
+<pad name="P$3" x="2.54" y="0" drill="1.2" diameter="1.8288" shape="octagon"/>
+<pad name="P$5" x="5.08" y="0" drill="1.2" diameter="1.8288" shape="octagon"/>
+<pad name="P$6" x="5.08" y="2.54" drill="1.2" diameter="1.8288" shape="octagon"/>
+<pad name="P$4" x="2.54" y="2.54" drill="1.2" diameter="1.8288" shape="octagon"/>
+<pad name="P$2" x="0" y="2.54" drill="1.2" diameter="1.8288" shape="octagon"/>
 <wire x1="-0.635" y1="1.27" x2="-1.27" y2="1.905" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="1.905" x2="-1.27" y2="3.175" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="3.175" x2="-0.635" y2="3.81" width="0.127" layer="21"/>
@@ -677,14 +677,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default">
-<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
-&lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für 
-die meisten Anwendungen passen. Sollte ihre Platine 
-besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter 
-einem neuen Namen ab.</description>
+<designrules name="Sparkfun">
 <description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 The default Design Rules have been set to cover
@@ -706,11 +699,11 @@ design rules under a new name.</description>
 <param name="mdSmdSmd" value="8mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="40mil"/>
+<param name="mdCopperDimension" value="8mil"/>
 <param name="mdDrill" value="8mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="10mil"/>
-<param name="msDrill" value="24mil"/>
+<param name="msWidth" value="8mil"/>
+<param name="msDrill" value="20mil"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
@@ -720,15 +713,15 @@ design rules under a new name.</description>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMinPadTop" value="12mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
 <param name="rlMinPadInner" value="10mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMinPadBottom" value="12mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMinViaOuter" value="10mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMinViaInner" value="10mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
 <param name="rlMinMicroViaOuter" value="4mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
@@ -745,7 +738,7 @@ design rules under a new name.</description>
 <param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="20mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -946,8 +939,8 @@ design rules under a new name.</description>
 <polygon width="0.254" layer="1" isolate="0.3048">
 <vertex x="0" y="50.8"/>
 <vertex x="17.78" y="50.8"/>
-<vertex x="17.78" y="33.02"/>
-<vertex x="0" y="33.02"/>
+<vertex x="17.78" y="33.274"/>
+<vertex x="0" y="33.274"/>
 </polygon>
 </signal>
 <signal name="N$2">
@@ -956,8 +949,8 @@ design rules under a new name.</description>
 <polygon width="0.254" layer="16" isolate="0.3048">
 <vertex x="0" y="50.8"/>
 <vertex x="17.78" y="50.8"/>
-<vertex x="17.78" y="33.02"/>
-<vertex x="0" y="33.02"/>
+<vertex x="17.78" y="33.274"/>
+<vertex x="0" y="33.274"/>
 </polygon>
 <wire x1="7.89" y1="43.29" x2="6.46" y2="43.29" width="0.254" layer="1"/>
 <wire x1="6.46" y1="43.29" x2="6.35" y2="43.18" width="0.254" layer="1"/>
