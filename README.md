@@ -20,6 +20,7 @@ Documentation
 
 Product Versions
 ----------------
+* [KIT-11591](https://www.sparkfun.com/products/23451) - v1.0, without the polarized jumper wire cable
 * [KIT-11591](https://www.sparkfun.com/products/11591) - v1.0
 
 Version History
