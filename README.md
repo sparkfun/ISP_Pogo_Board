@@ -1,9 +1,9 @@
 ISP Pogo Adapter
 ================
 
-[![ISP Pogo Adapter](https://dlnmh9ip6v2uc.cloudfront.net/images/products/1/1/5/9/1/11591-02_medium.jpg)](https://www.sparkfun.com/products/11591)
+[![ISP Pogo Adapter](https://cdn.sparkfun.com/r/455-455/assets/parts/2/3/7/5/6/233451-ISP-Pogo-Adapter-Reshoot-Feature.jpg)](https://www.sparkfun.com/products/23451)
 
-_[ISP Pogo Adapter (KIT-11591)](https://www.sparkfun.com/products/11591)_
+_[ISP Pogo Adapter (KIT-23451)](https://www.sparkfun.com/products/23451)_
 
 This is a simple adapter board that allows you to adapt pogo pins to an 6-pin ISP header. 
 
